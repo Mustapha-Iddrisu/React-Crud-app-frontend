@@ -16,11 +16,7 @@ export default function AllUsers() {
   useEffect(() => {
     return () => {
       axios
-<<<<<<< HEAD
-        .get("https://mern-stack-backend-brf4.onrender.com/api/all-Users")
-=======
         .get("https://mern-stack-backend-brf4.onrender.com/api/all-users")
->>>>>>> 893df8c70ad511f7e649ead43a51d9bd7bd11a74
         .then((result) => {
           console.log(result);
           setUsers(result.data.Users);
