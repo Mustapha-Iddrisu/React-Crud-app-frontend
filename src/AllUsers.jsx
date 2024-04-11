@@ -61,13 +61,9 @@ export default function AllUsers() {
   
   return (
     <div
-<<<<<<< HEAD
       className="d-flex  justify-content-center align-items-center p-4 row"
-=======
       className="d-flex  justify-content-center align-items-center vh-100 p-4 row"
->>>>>>> 893df8c70ad511f7e649ead43a51d9bd7bd11a74
-      id="mainbody"
-    >
+      id="mainbody">
       <div className="bg-white d-flex  rounded col-auto p-3 row">
         <div className="d-flex bg-dark text-white p-2  justify-content-between mb-2">
           <h3>All Users({numberOfUsers})</h3>
